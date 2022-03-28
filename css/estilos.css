@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/*
+.container {
+  height: auto;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  width: auto;
+  height: 30px;
+  padding: 10px;
+  background-color: #e3e4f0;
+  margin-top: 10;
+}
+
+.menu li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  min-width: 50px;
+}
+
+.menu li a:hover {
+  background: #b8def9;
+}
+
+.menu li a {
+  display: block;
+  padding: 5px 5px;
+  color: black;
+  text-decoration: none;
+  background-color: #e3e4f0;
+}
+
+.container1 {
+  display: flex;
+  border-radius: 1px;
+}
+
+.containerlogin {
+  width: 100px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.containerlogin form a {
+  width: 500px;
+  padding: 5px;
+  font-size: 16pt;
+  display: block;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.containerlogin form {
+  background: #fff;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.containerlogin form img {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+}
+
+.containerlogin form input {
+  width: 200px;
+  padding: 5px;
+  font-size: 16pt;
+  display: block;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.context {
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  border: 2px;
+}
+
+.context p {
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  border: 2px;
+  text-align: justify;
+}
+*/
+.pie-pagina {
+  width: auto;
+  background-color: #e3e4f0;
+}
+
+.pie-pagina .grupo-1 {
+  width: auto;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .b figure {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .b figure img {
+  width: 250px;
+  height: 150px;
+}
+
+.pie-pagina .grupo-1 .b h2 {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .b p {
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a img {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*uinicio*/
+
+.pr {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pr1 {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pr2 {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pr3 {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pr4 {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.parrafos1 {
+ 
+  text-align: justify;
+}
+
+revisar
+
+.tabla {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+table {
+  display: block;
+  border-collapse: separate;
+  border-spacing: 5px;
+  border-color: rgb(0, 0, 0);
+}
+
+.t1 {
+  background: rgb(199, 199, 199);
+  border: 1px solid rgba(199, 199, 199);
+}
+
+.t2 {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+h3 {
+  margin-left: 10px;
+  color: black;
+  font-family: Verdana;
+}
+
+.but {
+  background-color: rgb(214, 214, 214);
+  border: 2px rgb(0, 0, 0) solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.but:hover {
+  background: rgb(24, 204, 7);
+}
+
+.but1 {
+  background-color: rgb(214, 214, 214);
+  border: 2px rgb(0, 0, 0) solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.but1:hover {
+  background: rgb(250, 0, 0);
+}
+
+.botones {
+  display: flex;
+  margin-left: 15px;
+  flex-wrap: wrap;
+}
+
+form gestion pqr
+
+.h1 {
+  color: black;
+  font-family: Verdana;
+}
+
+.form {
+  border: 2px rgb(184, 184, 184) solid;
+  padding-left: 1%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.but {
+  background-color: rgb(214, 214, 214);
+  border: 2px rgb(0, 0, 0) solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 7px;
+}
+
+.but:hover {
+  background: rgb(24, 204, 7);
+}
+
+.textocampos {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #636c73;
+}
+
+.memos {
+  font-family: "Open Sans";
+  width: 460px;
+  color: #636c73;
+  box-sizing: border-box;
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.071em;
+  box-shadow: 0px 1px 2px #eee inset;
+  padding: 10px;
+  border-radius: 3px;
+  height: 200px;
+  columns: 40;
+  grid-row: 6;
+}
+
+.op {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #636c73;
+}
+
+.imgfotoitsa img {
+  width: 800px;
+  height: 300px;
+}
+
+administrador
+
+.table1 {
+  width: 80%;
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border-radius: 2px solid black;
+}
+
+thead {
+  background-color: blue;
+  border-bottom: solid 5px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+.botonesad:hover {
+  background: blue;
+}
+
+.btn-danger:hover {
+  background: red;
+}

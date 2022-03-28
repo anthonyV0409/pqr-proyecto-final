@@ -1,0 +1,30 @@
+[
+    {
+        "usuario":"anthony",
+        "contraseña":"123456789a",
+        "Nombre":"anthony",
+        "Apellido":"vanegas",
+        "Tipo_de_usuario":"Admin",
+        "Correo":"anthonydvanegas@itsa.edu.co",
+        "Cedula":"1002027747",
+        "Celular":"3046445940"
+    },{
+        "usuario":"camilo",
+        "contraseña":"123456789c",
+        "Nombre":"camilo",
+        "Apellido":"yepez",
+        "Tipo_de_usuario":"Empleado",
+        "Correo":"camiloyepez@itsa.edu.co",
+        "Cedula":"105264120",
+        "Celular":"3000548204"
+    },{
+        "usuario":"juan",
+        "contraseña":"123456789j",
+        "Nombre":"juan",
+        "Apellido":"tafur",
+        "Tipo_de_usuario":"estudiante",
+        "Correo":"andry@itsa.edu.co",
+        "Cedula":"6846410",
+        "Celular":"3222222222"
+    }
+]

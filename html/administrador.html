@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css\estilos.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="icon" href="../img/itsa.png">
+    <title>administrador</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="imgit"><img src="../img/1200px-ITSA.png" alt="" srcset="" width="200px" height="100px">
+            <a class="btn btn-danger" href="../index.html">CERRAR SESION</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../html/administrador.html">perfil <span class="sr-only"></span></a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Usuario
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../html/listausuario.html">lista de Usuario</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Asistente
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../html/listaasistente.html">Lista de asistente </a></li>
+                            <li><a class="dropdown-item" href="../html/crearasistente.html">crear asistente</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+        <form>
+            <label for="Nombre">Nombre</label> <br>
+            <input class="fe" type="text"  id="Nombre"  readonly value=""  /><br>
+            <label for="cedula">Apellido</label> <br>
+            <input class="fe" type="text"  id="Apellido"  readonly value=""  /><br>
+            <label for="cedula">cedula</label> <br>
+            <input class="fe" type="number"  id="cedula"  readonly value=""  /><br>
+            <label for="cedula">Celular</label> <br>
+            <input class="fe" type="number"  id="Celular"  readonly value=""  /><br>
+            <label for="Correo">Correo Electronico</label><br>
+            <input class="fe" type= "email" id="Correo"  readonly value="" /> <br>
+            <label for="Cargo">Cargo </label> <br>
+            <input class="fe" type="text"  id="Cargo"  readonly value="" /><br>
+        </form>
+
+
+                <br><br>
+
+                <footer class="pie-pagina">
+                    <div class="grupo-1">
+                        <div class="b">
+                            <figure>
+                                <a href="#">
+                                    <img src="../img\itsa.png" alt="logo">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="b">
+                            <h2>DONDE ESTAMOS</h2>
+                            <P>Soledad, Atlántico: </P>
+                            <P> Calle 18 No. 39-100 Tels.:</P>
+                            <P>(60) (05) 311 2370</P>
+                            <P> Barranquilla, Atlántico:</P>
+                            <P>Cra 45 No. 48-31</P>
+                            <P> PBX.: (60) (05) 311 2370 Ext. 203 - 204 Solo FAX</P>
+
+                        </div>
+                        <div class="b">
+                            <h2>SIGUENOS</h2>
+                            <div class="red-social">
+                                <a href="#" class="fa fa-facebook"> <img src="../img\facebook.png" alt="facebook"></a>
+                                <a href="#" class="fa fa-instagram "> <img src="../img\instagram.png"
+                                        alt="instagram"></a>
+                                <a href="#" class="fa fa-twitter "><img src="../img\twitter.png" alt="twitter"></a>
+                                <a href="#" class="fa fa-youtube "><img src="../img\youtube.png" alt="youtube"> </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="grupo-2">
+                        <small> &copy;2022 <b>ITSA</b>- derechos reservados </small>
+                    </div>
+                </footer>
+    </div>
+    <script src="../js/administracion.js"></script>
+</body>
+
+</html>
